@@ -176,7 +176,7 @@ main {
     margin-bottom: 1px;
   }
   .Terminal__body {
-    background: rgba(56, 4, 40, .9);
+    background: black;
     height: calc(100% - 25px);
     margin-top: -1px;
     padding-top: 2px;
