@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 main {
@@ -222,5 +223,42 @@ main {
     .Terminal {
       max-height: 90%;
       width: 95%;
+    }
+  }
+
+  .Terminal__body textarea {
+      background: #000;
+      border: none;
+      outline: none;
+      resize: none;
+      color: #fff;
+  }
+
+  .version__card{
+      width: 400px;
+      /* height: 600px; */
+      position: absolute;
+      text-align:  center;
+      height: 500px;
+      top: 30px;
+      background: #fff;
+      font-family: 'Inter', sans-serif;
+  }
+  .version__card .user-text{
+    animation: animate2 0.5s ease-in;
+  }
+  .version__card .version-text{
+      animation: animate2 2s ease-in-out;
+      /* animation-delay: 1s; */
+  }
+
+  @keyframes animate2{
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(auto);
+        opacity: 1;
     }
   }
