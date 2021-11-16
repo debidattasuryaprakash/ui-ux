@@ -112,13 +112,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 20%;
-    top: 5%;
-    height: 100vh;
+    height: 120vh;
+    overflow: hidden;
   
   }
   .Terminal {
-    width: 600px;
+    width: 700px;
     height: 400px;
     box-shadow: 2px 4px 10px rgba(0,0,0,.5);
   }
@@ -235,11 +234,11 @@ main {
   }
 
   .version__card{
-      width: 400px;
+      width: 500px;
       /* height: 600px; */
       position: absolute;
       text-align:  center;
-      height: 500px;
+      height: 100px;
       top: 30px;
       background: #fff;
       font-family: 'Inter', sans-serif;
